@@ -19,7 +19,7 @@ Pré-requisitos
 Python 3.8 ou superior instalado.
 Passo a Passo
 Clone este repositório:
-git clone [https://github.com/Luis-Plinio](https://github.com/Luis-Plinio/projeto_sistema_de_auditoria.git)
+git clone [https://github.com/alanghercov](https://github.com/alanghercov/projeto_sistema_de_auditoria.git)
 Acesse a pasta do projeto:
 cd projeto_sistema_de_auditoria
 Execute o script principal:
