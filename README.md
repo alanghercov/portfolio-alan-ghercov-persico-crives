@@ -6,11 +6,11 @@
 ### 📫 Contato & Redes Sociais
 [![LinkedIn](https://www.linkedin.com/in/alan-persico-3b9997410/) 
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanpersico663@gmail.com) 
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./CV/cv_plinio.pdf)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](./CV/cv_alan.pdf)
 ---
  
 ### 👨‍💻 Sobre
-Atualmente cursando o 1º período de Ciência da Computação na Universidade Cidade de São Paulo. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em Back-end
+Atualmente cursando o 1º período de Engenharia de software na Universidade Cidade de São Paulo. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em Back-end
  
 * **Habilidades Técnicas:** Python.
 * **Habilidades Socioemocionais:** Pontualidade, boa comunicação e escrita
