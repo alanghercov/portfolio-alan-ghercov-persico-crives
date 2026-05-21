@@ -1,29 +1,31 @@
-Sistema de Auditoria de Vendas Semanais
-Este projeto é uma ferramenta em Python desenvolvida para automatizar o processo de monitorização e validação de transações comerciais. O sistema foca-se na análise de médias de vendas, gestão de limites de risco e identificação de anomalias financeiras.
+📖 Sobre o Projeto
+Este projeto foi desenvolvido como parte da disciplina de Programação de computadores do curso de Ciência da computação. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
+
+A solução foi arquitetada utilizando conceitos avançados de Python para garantir flexibilidade, performance e rastreabilidade.
 
 🚀 Funcionalidades
-O script realiza as seguintes operações:
+Cálculo Hierárquico: Varredura completa da estrutura corporativa, independentemente do nível de profundidade.
+Filtros Dinâmicos: Capacidade de ignorar setores específicos e todos os seus subsetores na hora do cálculo financeiro.
+Conversão de Câmbio: Suporte a parâmetros opcionais para conversão de moedas em tempo de execução.
+Sistema de Auditoria: Monitoramento automatizado de tempo de execução e registro (logging) dos parâmetros utilizados na transação financeira.
+🛠️ Tecnologias e Conceitos Aplicados
+Este projeto foi construído utilizando Python puro (Standard Library), com foco nos seguintes paradigmas e recursos:
 
-Cálculo de Média: Processa três valores de venda e gera a média aritmética.
-Validação de Legitimidade: Interface interativa para confirmação manual de autenticidade das vendas.
-Gestão de Limites: Permite a reconfiguração dinâmica do limite de segurança caso uma irregularidade seja detectada.
-Estado de Quarentena: Sistema de alerta para médias que ultrapassam o teto de segurança em vendas não confirmadas.
-Detecção de Anomalias (Revisão Manual): Identifica automaticamente se alguma venda individual é desproporcional (5x superior à média), sinalizando a necessidade de auditoria humana.
-🛠️ Como Funciona
-Entrada de Dados: O utilizador insere os valores de três vendas semanais (V1, V2, V3).
-Processamento: A função analisar_vendas() calcula a média e exibe-a no terminal.
-Verificação: O auditor responde se a venda é legítima (s/n).
-Se 'n': O sistema solicita um novo limite de segurança e verifica se deve entrar em QUARENTENA.
-Se 's': O sistema prossegue com a confirmação de sucesso.
-Análise de Risco: O software verifica se existe algum valor atípico que exija uma REVISÃO MANUAL.
-Logs Técnicos: No final, o sistema imprime o tipo de variável de cada dado processado para garantir a integridade do sistema.
-📋 Pré-requisitos
-Python 3.x instalado.
-🖥️ Exemplo de Uso
-Valor da venda 1: 1200
-Valor da venda 2: 1500
-Valor da venda 3: 8000
-A média das vendas é: 3566.66
-A venda é legitima? (s/n) s
-MÉDIA DAS VENDAS NORMAL
-REVISÃO MANUAL
+Funções Recursivas (Recursion): Utilizadas para a navegação na árvore de dados (dicionários aninhados).
+Decorators: Implementação do @auditor para injetar comportamentos de log e cronometragem sem modificar a lógica de negócios.
+Empacotamento de Argumentos (*args e **kwargs): Utilizados tanto no decorator quanto na função principal para permitir a passagem dinâmica de departamentos a serem ignorados e taxas de câmbio.
+⚙️ Como Executar
+Pré-requisitos
+Python 3.8 ou superior instalado.
+Passo a Passo
+Clone este repositório:
+git clone [https://github.com/Luis-Plinio](https://github.com/Luis-Plinio/projeto_sistema_de_auditoria.git)
+Acesse a pasta do projeto:
+cd projeto_sistema_de_auditoria
+Execute o script principal:
+sistema_de_auditoria main.py
+🧠 Lógica e Estrutura do Código
+Breve explicação de como o código foi organizado:
+
+Eu organizei o código separando a auditoria, os dados da empresa e o cálculo do orçamento. Usei recursão para percorrer todos os setores do dicionário e somar os valores automaticamente, mesmo com vários níveis. Também utilizei *args para ignorar departamentos e **kwargs para configurar moeda e taxa de câmbio..
+Dados: Os dados simulados da empresa foram estruturados em... JSON.
